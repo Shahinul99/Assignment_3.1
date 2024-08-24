@@ -33,8 +33,8 @@
     </style>    
 </head>
 <body class="manrope">
-    <!-- header section -->
-    <header class=" md:container mx-auto" >
+    <!-- nav section -->
+    <navbar class=" md:container mx-auto" >
         <nav>
             <div class="navbar bg-base-100">
                 <div class=" flex-1">
@@ -81,25 +81,63 @@
                     </div>
                 </div>
         </nav>
-    </header>
+    </navbar>
+        <!-- header section -->
+        <header class=" max-w-screen-xl mx-auto px-16 lg:px-28">
+            <section class=" pt-10 mb-20 md:text-center lg:justify-center gap-4">
+                <!-- text content -->
+                <div>
+                    <img class="text-center justify-center items-center" src="./img/./banner.png" alt="">
+                </div>
+                <!-- img content -->
+                <div class=" max-w-screen-lg">
+                    <h1 class="font-bold text-3xl md:text-7xl">A barn house of this design has a striking appearance</h1>
+                    <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <button class="bg-gradient-to-r from-green-700 px-5 py-3 rounded-2xl font-bold ">View Details <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></button>
+    
+                </div>
+    
+            </section>
+        </header>
 
     <!-- main section  -->
-    <main class=" max-w-screen-xl mx-auto px-16 lg:px-28">
-        <!-- hero section -->
-        <section class=" pt-10 mb-20 ">
-            <!-- text content -->
-            <div>
-                <img src="./img/./banner.png" alt="">
-            </div>
-            <!-- img content -->
-            <div class="">
-                <h1 class="font-bold text-5xl md:text-7xl ">A barn house of this design has a striking appearance</h1>
-                <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-                <button class="bg-gradient-to-r from-green-700 px-5 py-3 rounded-lg font-bold ">View Details <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></button>
+    <main class="bg-slate-200 ">
+        <!-- design section -->
+        <div class=" max-w-screen-xl mx-auto px-16 lg:px-28">
+            <section class="flex pt-10 mb-20 space-x-2 relative" >
+                <!-- text content -->
+                <div class="w-1/2">
+                <img class="absolute lg:-top-2 lg:-left-20 left-0" src="./img/./Vector.png" alt="">
+                <button class="p-1 border rounded-xl font-bold bg-white"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+                <h1 class="text-3xl md:text-6xl font-bold ">We design thoughtful, liveable spaces</h1>
+                <p class="text-gray-500">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                <!-- card -->
+                <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-2xl mb-2" >
+                    <!-- img -->
+                    <img src="./img/./commercial.png" alt="">
+                    <div class="ml-2">
+                        <h2 class="lg:text-2xl font-bold">Commercial</h2>
+                        <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-2xl">
+                    <!-- img -->
+                    <img src="./img/./residential.png" alt="">
+                    <div class="ml-2 ">
+                        <h2 class="lg:text-2xl font-bold">Residential</h2>
+                        <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+                </div>
+                <!-- img content -->
+                <div class="w-1/2 ml-5">
+                    <img class="w-full" src="./img/./Rectangle.png" alt="">
+                </div>
+            </section>
+        </div>
 
-            </div>
-
-        </section>
+        <!-- feature section -->
     </main>
     
     <!-- footer section  -->
