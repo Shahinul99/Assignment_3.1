@@ -15,6 +15,7 @@
     <!-- daisy ui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
         tailwind.config = {
         theme: {
@@ -62,7 +63,7 @@
                         <li><a>Contact Us</a></li>
                     </ul>
                     </div>
-                    <a class=" font-bold text-3xl"><i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i> Rinterio</a>
+                    <a class=" font-bold text-2xl"><i class=" bg-green-300 rounded-3xl fa-solid fa-arrow-right text-xl -rotate-45 "></i> Rinterio</a>
                     </div>
 
                     <div class="navbar-center hidden lg:flex text-center">
@@ -75,25 +76,25 @@
                     </div>
 
                     <div class="navbar-end space-x-8 ">
-                        <a ><i class="fa-solid fa-magnifying-glass"></i></a>
-                        <a ><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a class="btn btn-primary text-black ru">Book Consult <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></a>
+                        <a ><i class="border p-2 rounded-2xl bg-white fa-solid fa-magnifying-glass"></i></a>
+                        <a ><i class="border p-2 rounded-2xl bg-white  fa-solid fa-cart-shopping"></i></a>
+                        <a class="border rounded-3xl p-3 text-black bg-green-300 font-bold">Book Consult <i class=" fa-solid fa-arrow-right text-xl -rotate-45 "></i></a>
                     </div>
                 </div>
         </nav>
     </navbar>
         <!-- header section -->
         <header class=" max-w-screen-xl mx-auto px-16 lg:px-28">
-            <section class=" pt-10 mb-20 md:text-center lg:justify-center gap-4">
+            <section class=" pt-10 mb-20 lg:text-center lg:justify-center lg:items-center">
                 <!-- text content -->
                 <div>
-                    <img class="text-center justify-center items-center" src="./img/./banner.png" alt="">
+                    <img src="./img/./banner.png" alt="">
                 </div>
                 <!-- img content -->
-                <div class=" max-w-screen-lg">
-                    <h1 class="font-bold text-3xl md:text-7xl">A barn house of this design has a striking appearance</h1>
-                    <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-                    <button class="bg-gradient-to-r from-green-700 px-5 py-3 rounded-2xl font-bold ">View Details <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></button>
+                <div class=" max-w-screen-lg ">
+                    <h1 class="font-bold text-3xl lg:text-7xl mb-2">A barn house of this design has a striking appearance</h1>
+                    <p class="text-gray-600 mb-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                    <button class="bg-emerald-300 px-5 py-3 rounded-3xl font-bold ">View Details <i class="fa-solid fa-arrow-right text-xl -rotate-45 "></i></button>
     
                 </div>
     
@@ -104,14 +105,14 @@
     <main class="bg-slate-200 ">
         <!-- design section -->
         <div class=" max-w-screen-xl mx-auto px-16 lg:px-28">
-            <section class="flex pt-10 mb-20 space-x-2 relative" >
+            <section class="lg:flex pt-10 mb-20 space-x-2 relative">
                 <!-- text content -->
                 <div class="w-1/2">
-                <img class="absolute lg:-top-2 lg:-left-20 left-0" src="./img/./Vector.png" alt="">
-                <button class="p-1 border rounded-xl font-bold bg-white"><i class="fa-solid fa-arrow-right"></i> About Us</button>
-                <h1 class="text-3xl md:text-6xl font-bold ">We design thoughtful, liveable spaces</h1>
-                <p class="text-gray-500">The barn house captivates with its blend of rustic charm and 
-                    modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                <img class="absolute lg:-top-2 lg:-left-20 left-0 " src="./img/./Vector.png" alt="">
+                <button class="p-1 border rounded-xl font-bold bg-white"><i class="fa-solid fa-arrow-right p-2"></i> About Us</button>
+                <h1 class="text-3xl lg:text-5xl font-bold mt-4 mb-4">We design thoughtful, liveable spaces</h1>
+                <p class="text-gray-500 mb-2">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 <!-- card -->
                 <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-2xl mb-2" >
                     <!-- img -->
@@ -138,6 +139,43 @@
         </div>
 
         <!-- feature section -->
+        <section class="max-w-screen-xl mx-auto px-16 lg:px-28 py-8 lg:py-24"> 
+            <!--content-->
+            <div class="text-center mb-8">
+                <button class="p-1 border rounded-2xl font-bold bg-white"><i class=" fa-solid fa-arrow-right p-2"></i> How we works</button>
+                <h1 class="text-3xl font-bold mb-2">Our Works Process</h1>
+                <p class="text-gray-600 mb-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br>featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- grid card -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+                <!-- card -->
+                <div class="rounded-lg bg-pink-300 overflow-hidden p-4">
+                    <!-- icon -->
+                    <img class="" src="./img/./concept.png" alt="">
+                    <h2 class="font-bold text-xl">Concept</h2>
+                    <p class="text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="rounded-lg bg-yellow-300 overflow-hidden p-5">
+                    <!-- icon -->
+                    <img class="" src="./img/./flow-chart.png" alt="">
+                    <h2 class="font-bold text-xl">Design Process</h2>
+                    <p class="text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="rounded-lg bg-teal-300 overflow-hidden p-4">
+                    <!-- icon -->
+                    <img class="" src="./img/./vision.png" alt="">
+                    <h2 class="font-bold text-xl">Supervision</h2>
+                    <p class="text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <div class="rounded-lg bg-blue-300 overflow-hidden p-4">
+                    <!-- icon -->
+                    <img class="" src="./img/./budget-planning.png" alt="">
+                    <h2 class="font-bold text-xl">Budget Planning</h2>
+                    <p class="text-black">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+
+            </div>
+        </section>
     </main>
     
     <!-- footer section  -->
